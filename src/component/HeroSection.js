@@ -8,11 +8,13 @@ const HeroSection = () => {
   return (
     <div className="HeroSectionDiv">
       <div className="HeroSectionImageDiv">
+        <div className="HeroSectionImage1">
         <img
           alt="herosection"
           src={hersosectionImage}
           className="HeroSectionImage"
         />
+        </div>
         <div className="HeroSectionSvg">
           <svg
             className="custom-svg"
@@ -28,17 +30,17 @@ const HeroSection = () => {
             />
           </svg>
         </div>
-        {/* <div className="HeroSectionSvgButton">
+        <div className="HeroSectionSvgButton">
           <Button 
             text="Get In Touch"
             color="#fff"
-            border=" 1px #fff"
+            border=" 1px solid #fff"
             width="100px"
             height="38px"
             borderRadius="16px"
             background="#E23744"
           />
-        </div> */}
+        </div>
       </div>
       <div className="HeroSectionTextDiv">
         <div className="HeroSectionTextDivImage">

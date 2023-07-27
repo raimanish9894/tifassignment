@@ -61,15 +61,22 @@
 .CarouselSectionTitile {
   margin-left: 4rem;
   margin-bottom: 2.56rem;
+  color: var(--primary, #0e2368);
+  font-family: Source Sans Pro;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.625rem; /* 75% */
+  letter-spacing: 0.14rem;
 }
-.carouselButtonDiv{
+.carouselButtonDiv {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.88rem;
   margin-top: 30px;
 }
-.carouselButton{
+.carouselButton {
   display: flex;
   justify-content: center;
   align-items: center;

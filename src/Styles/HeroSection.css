@@ -1,12 +1,12 @@
 .HeroSectionDiv {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  gap: 16rem;
+  gap: 16vw;
+  width: 100%;
   position: relative;
 }
 .HeroSectionImageDiv {
-  flex: 1;
   order: 2;
 }
 
@@ -18,7 +18,7 @@
 .HeroSectionSvgButton {
   position: absolute;
   top: 2rem;
-  left: 90vw;
+  right: 1.5rem;
 }
 .HeroSectionTextDivImage {
   position: absolute;
@@ -33,7 +33,7 @@
 }
 
 .HeroSectionTitle {
-  font-family: sans-serif;
+  font-family: Source Sans Pro;
   font-size: 3.3rem;
   font-style: normal;
   font-weight: 700;
@@ -42,7 +42,7 @@
 }
 .HeroSectionP {
   color: var(--body, #444957);
-  font-family: sans-serif;
+  font-family: Open Sans;
   font-size: 1.02781rem;
   font-style: normal;
   font-weight: 400;
@@ -50,8 +50,31 @@
   margin-bottom: 3rem;
 }
 .HeroSectionTitleDiv {
-  /* Add this style to center the HeroSectionTitleDiv */
   margin: 0 auto;
+}
+
+@media (max-width: 1300px) {
+  .HeroSectionImage {
+    width: 43rem;
+    height: 48.4375rem;
+  }
+
+  .custom-svg {
+    width: 45rem;
+    height: 50.4375rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .HeroSectionImage {
+    width: 41rem;
+    height: 46.4375rem;
+  }
+
+  .custom-svg {
+    width: 43rem;
+    height: 48.4375rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -70,7 +93,7 @@
     width: 100%;
     height: 25.85738rem;
   }
-  
+
   .custom-svg {
     /* Set the desired height and width for the SVG in mobile view */
     width: 100%;
@@ -78,7 +101,8 @@
   }
   .HeroSectionSvg {
     right: 0;
-}
+    top: 0;
+  }
 
   .HeroSectionTextDiv {
     margin-left: 0;
@@ -91,8 +115,29 @@
     text-align: center;
     margin-left: 0;
   }
+  .HeroSectionTitle {
+    margin-left: 2.88rem;
+    margin-right: 2.88rem;
+  }
   .HeroSectionP {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 2.88rem;
+    margin-right: 2.88rem;
+  }
+}
+
+@media (max-width: 410px) {
+  .custom-svg {
+    /* Set the desired height and width for the SVG in mobile view */
+    width: 100%;
+    height: 24.625rem; /* Adjust this value as needed */
+  }
+  .HeroSectionImage {
+    width: 100%;
+    height: 23.85738rem;
+  }
+  .HeroSectionSvgButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
   }
 }
