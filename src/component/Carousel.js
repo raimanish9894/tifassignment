@@ -4,10 +4,10 @@ import CardCarousel from "../component/CardCarousel";
 
 const Carousel = () => {
   return (
-    <div className='CarouselSection'>
+    <section className='CarouselSection'>
       <h1 className='CarouselSectionTitile'>Latest Articles</h1>
       <CardCarousel />
-    </div>
+    </section>
   )
 }
 

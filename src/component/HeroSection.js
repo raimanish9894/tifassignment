@@ -6,7 +6,7 @@ import "../Styles/HeroSection.css";
 
 const HeroSection = () => {
   return (
-    <div className="HeroSectionDiv">
+    <section className="HeroSectionDiv">
       <div className="HeroSectionImageDiv">
         <div className="HeroSectionImage1">
         <img
@@ -68,7 +68,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

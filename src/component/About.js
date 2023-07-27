@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const About = () => {
   return (
-    <div className="AboutSection">
+    <section className="AboutSection">
       <div className="AboutSectionImageDiv">
         <img alt="about" src={aboutImage} className="AboutSectionImage" />
       </div>
@@ -28,7 +28,7 @@ const About = () => {
           height="38px"
         />
       </div>
-    </div>
+    </section>
   );
 };
 
